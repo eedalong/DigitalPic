@@ -36,7 +36,7 @@ def GetData(image_path,save_path = ''):
     print('dalong log L: into GetData function');
     print('dalong log : check image path {}'.format(image_path));
     image_code =get_base64code(image_path);
-    cosmetic = 6;
+    cosmetic = 10;
     app_id = 1106900434;
     app_key = 'UUMP15CWMoF2J60b';
     quest ={};
@@ -58,7 +58,7 @@ def GetData(image_path,save_path = ''):
         tmp_file.write(image);
         tmp_file.close();
         return 1;
-	
+
 	print('Faillllllllll');
     return 0;
 def main(image_path = '',save_path = '' ):
